@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://catherinebreslin.github.io/ai-core-concepts/unsupervised-learning/">
+        <link rel="canonical" href="https://catherinebreslin.github.io/ai-core-concepts/training/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Unsupervised Learning - Accelerate Science Core AI Concepts</title>
+        <title>Training ML Models - Accelerate Science Core AI Concepts</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#unsupervised-learning" class="md-skip">
+        <a href="#training-ml-models" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Unsupervised Learning
+              Training ML Models
             
           </span>
         </div>
@@ -347,9 +347,63 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#data" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
+      Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backpropagation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backpropagation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#over-and-under-fitting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Over and under fitting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hyperparameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hyperparameters
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#training-supervised-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      Training supervised models
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#top-tips-for-getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      Top Tips for getting started
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inspiration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inspiration
     </span>
   </a>
   
@@ -382,32 +436,47 @@
   
 
 
-<h1 id="unsupervised-learning">Unsupervised Learning</h1>
+<h1 id="training-ml-models">Training ML Models</h1>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <p>This section will help you understand:</p>
 <ul>
-<li>What unsupervised learning is, and where you can use it</li>
-<li>Unsupervised learning tasks including clustering, outlier detection and dimensionality reduction</li>
-<li>Some real-world examples of unsupervised learning in research</li>
+<li>Know what it means to train an AI model</li>
+<li>Backpropagation, the algorithm used for training neural networks</li>
+<li>How to use data for robust training, development and testing</li>
+<li>Over and under fitting</li>
+<li>Tuning hyperparameters</li>
+<li>Know about the iterative approach to building a model</li>
 </ul>
-<h2 id="overview">Overview</h2>
-<p>Supervised learning has been the most invested in</p>
-<p>But, labelling data is expensive. </p>
-<p>Most of the data in the world is unlabelled.</p>
-<p>Unsupervised learning looks at ways to make sense of unstructured and unlabelled data.</p>
-<p>Two algorithms are:</p>
+<h2 id="data">Data</h2>
+<p>Split your data into train, test, dev splits.
+Really important to ensure no leakage between training and testing.
+Shuffling your data</p>
+<h2 id="backpropagation">Backpropagation</h2>
+<h2 id="over-and-under-fitting">Over and under fitting</h2>
+<h2 id="hyperparameters">Hyperparameters</h2>
+<h2 id="training-supervised-models">Training supervised models</h2>
+<p>Training a supervised learning algorithm involves:</p>
+<p><img align="center" alt="AI Lifecycle" src="../imgs/ailifecycle.png" /></p>
+<ol>
+<li>decide on the task and collect data; label that data</li>
+<li>train a model on a 'training' set of your data</li>
+<li>evaluate the model on a separate test set, to see how well it does</li>
+<li>investigate the errors to see where you can improve</li>
+</ol>
+<p>This tends to be an iterative process, not a linear one, so you may need to loop through these steps several times to get a model that works. </p>
+<p>Popular supervised learning algorithms include logistic regression, decision trees, support vector machines, neural networks.</p>
+<h2 id="top-tips-for-getting-started">Top Tips for getting started</h2>
+<ol>
+<li>Prototype - start with a small model and a simple baseline; Start with a small dataset, before increasing the amount of data</li>
+<li>Ensure there's no leakage between your test and training data</li>
+<li>Make use of open source libraries, models and data</li>
+</ol>
+<h2 id="inspiration">Inspiration</h2>
+<p>Find more examples of research that's using supervised learning on Accelerate's blog:</p>
 <ul>
-<li>Clustering</li>
-<li>Anomaly detection</li>
-</ul>
-<p><strong>Clustering</strong></p>
-<p>Takes data and tries to figure out if there is a structure in terms of distinct clusters. Suppose you have a lot of portrait photos of people. Clustering them might group them into clusters which correspond to specific individuals.</p>
-<p>K-means is a popular clustering algorithm. You might have to give the number of clusters, or you might use a method to try and find the best fitting number of clusters.  </p>
-<p><strong>Anomaly Detection</strong></p>
-<p>Tries to figure out if an example is an anomaly. </p>
-<p>For example, </p>
-<ul>
-<li>identifying fraudulent transactions</li>
+<li>link</li>
+<li>link</li>
+<li>link</li>
 </ul>
 <h2 id="contact">Contact</h2>
 <p>If you can't find what you need</p>
