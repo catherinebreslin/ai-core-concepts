@@ -1,5 +1,13 @@
 # Supervised Learning
 
+## Learning Objectives
+
+This section will help you understand:
+
+- What supervised learning is, and where you can use it
+- The difference between classification and regression
+- Some real-world examples of supervised learning in research
+
 
 ## What is supervised learning?
 
@@ -25,30 +33,18 @@ Other examples of supervised learning tasks include:
 | Machine translation | Text in the source language | Text in the target language |
 
 
-
-## Training supervised models
-
-Training a supervised learning algorithm involves:
-
-1. decide on the task and collect data
-2. label that data
-3. train a model on a 'training' set of your data
-4. evaluate the model on a separate test set, to see how well it does
-5. investigate the errors to see where you can improve
-
-This tends to be an iterative process, not a linear one, so you may need to loop through these steps several times to get a model that works. 
-
-Popular supervised learning algorithms include logistic regression, decision trees, support vector machines, neural networks.
-
-
+Inputs here are also known as _features_. Outputs are labels, or predictions. 
 
 
 ## Top Tips for getting started
 
-1. Start with a small model and a simple baseline
-2. Start with a small dataset, before increasing the amount of data
-3. Ensure there's no leakage between your test and training data
-4. Make use of open source libraries, models and data
+1. Think carefully about the task you want to work with; can you define your task as a supervised learning one? What are the inputs and outputs of your model?
+2. Next, think about the data you have. Can you label it easily?
+3. Think carefully about how to evaluate whether your system is working. What metrics could you use?
+4. What are the risks and ethical concerns with your proposed work?
+
+Once you've answered these questions, you're ready to move onto training a model.
+
 
 ## Inspiration
 
@@ -61,10 +57,9 @@ Find more examples of research that's using supervised learning on Accelerate's 
 
 ## Contact
 
-Don't see what you need? 
+If you can't find what you need
 
 [CONTACT US :fontawesome-solid-paper-plane:](mailto:accelerate-mle@cst.cam.ac.uk){ .md-button }
-
 
 
 

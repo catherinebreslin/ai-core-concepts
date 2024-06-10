@@ -3,9 +3,6 @@ repo_url: https://github.com/catherinebreslin/ai-core-concepts/
 site_url: https://catherinebreslin.github.io/ai-core-concepts/
 nav:
   - Home: index.md
-  - What is AI?: what-is-ai.md
-  - Supervised Learning: supervised-learning.md
-  - Unsupervised Learning: unsupervised-learning.md
 theme:
   favicon: imgs/trace.svg
   name: material
