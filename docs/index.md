@@ -2,11 +2,11 @@
 
 **Machine learning has become an indispensable tool for researchers across disciplines.**
 
-In response, Accelerate Science’s programme offers tailored support to unblock these bottlenecks. This online course looks at the fundamentals of AI. 
+In response, Accelerate Science’s programme offers tailored support to help those who would like to learn more about AI. 
 
-If you can't find what you need
+This online course covers the fundamentals of AI for researchers who would like to explore using AI in their work. It's designed as an introduction to the core concepts behind AI, helping researchers to understand how they might use AI in their own work, and signposting ways to get started. 
 
-[CONTACT US :fontawesome-solid-paper-plane:](mailto:accelerate-mle@cst.cam.ac.uk){ .md-button }
+
 
 
 <div class="grid cards" markdown>
@@ -94,3 +94,9 @@ If you can't find what you need
     Responsible Research and Innovation
 
 </div>
+
+
+## Contact
+If you can't find what you need, or just need more help
+
+[CONTACT US :fontawesome-solid-paper-plane:](mailto:accelerate-mle@cst.cam.ac.uk){ .md-button }
