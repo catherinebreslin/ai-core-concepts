@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://catherinebreslin.github.io/ai-core-concepts/unsupervised-learning/">
+        <link rel="canonical" href="https://catherinebreslin.github.io/ai-core-concepts/image/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Unsupervised Learning - Accelerate Science Core AI Concepts</title>
+        <title>Image Processing / Computer Vision - Accelerate Science Core AI Concepts</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#unsupervised-learning" class="md-skip">
+        <a href="#image-processing-computer-vision" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Unsupervised Learning
+              Image Processing / Computer Vision
             
           </span>
         </div>
@@ -347,27 +347,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#what-is-computer-vision" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
+      What is Computer Vision?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#unsupervised-learning-algorithms" class="md-nav__link">
+  <a href="#cv-tasks" class="md-nav__link">
     <span class="md-ellipsis">
-      Unsupervised Learning Algorithms
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#inspiration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Inspiration
+      CV Tasks
     </span>
   </a>
   
@@ -400,39 +391,23 @@
   
 
 
-<h1 id="unsupervised-learning">Unsupervised Learning</h1>
+<h1 id="image-processing-computer-vision">Image Processing / Computer Vision</h1>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <p>This section will help you understand:</p>
 <ul>
-<li>What unsupervised learning is, and where you can use it</li>
-<li>Unsupervised learning tasks including clustering, outlier detection and dimensionality reduction</li>
-<li>Some real-world examples of unsupervised learning in research</li>
+<li>What Computer Vision (CV) is</li>
+<li>Some of the tasks that fall under CV</li>
 </ul>
-<h2 id="overview">Overview</h2>
-<p>Supervised learning is the most popular form of AI. However, supervised learning requires labelled data, which can be difficult or expensive to obtain. Most of the data in the world is unlabelled. Unsupervised learning helps us make sense of unstructured and unlabelled data.</p>
-<p>Three common unsupervised algorithms are <em>clustering</em>, <em>dimensionality reduction</em> and <em>anomaly detection</em>.</p>
-<h2 id="unsupervised-learning-algorithms">Unsupervised Learning Algorithms</h2>
-<p><strong>Clustering</strong></p>
-<p>Clustering is the process of taking your data and discovering sub-groups, or clusters, that are sufficiently similar to each other. Unlike classification in supervised learning, where we know the groups ahead of time, clustering uncovers the structure of the groups in a larger population.</p>
-<p>Suppose you're working with medical data. You know that some groups of people respond differently to treatment than others, but you don't know the factors that drive this. A clustering algorithm might group your participants into different clusters that potentially allow you to better explain what's going on.</p>
-<p><img align="center" alt="Clustering" src="../imgs/cluster1.png" /></p>
-<p>Other places that people have used clustering include uncovering structure in archeological data, clustering sounds and speakers together, identifying sub-groups of study participants etc. </p>
-<p>K-means and DBSCAN are popular clustering algorithms. You may need to give the number of clusters before running the clustering algorithm, or you might use an automated method to try and find which number of clusters best fits the data. </p>
-<p><strong>Dimensionality reduction</strong></p>
-<p>High dimensional data is hard to work with. The first thing we usually notice is that it's hard to visualise well in high dimensions, so that you can explore what the data looks like. A high number of dimensions also imacts the number of parameters your AI model needs to model the data. The more parameters a model has, the larger model and more data you need. This is the <em>curse of dimensionality</em>.</p>
-<p>Reducing the dimensionality of your data can be one way to work with it effectively. Projecting down to 2- or 3-dimensions means that you can plot it on a graph to view.</p>
-<p><img align="center" alt="Dimensionality Reduction" src="../imgs/dimred.png" /></p>
-<p>Principal Component Analysis (PCA), <a href="https://distill.pub/2016/misread-tsne/">t-SNE</a>, and <a href="https://pair-code.github.io/understanding-umap/">UMAP</a> are popular dimensionality reduction algorithms that you might see used. </p>
-<p><strong>Anomaly Detection</strong></p>
-<p>Anomoly detection is identifying anomolous or rare examples in a dataset, that are inconsistent with the rest of the dataset.</p>
-<p><img align="center" alt="Anomoly Detection" src="../imgs/anomoly1.png" /></p>
-<p>Examples of this might be in identifying fraudulent and unusual bank transactions, or identifying unusual behaviour that might be a cybersecurity threat. </p>
-<h2 id="inspiration">Inspiration</h2>
-<p>Find more examples of research using unsupervised learning on Accelerate's blog:</p>
+<h2 id="what-is-computer-vision">What is Computer Vision?</h2>
+<p>CV deals with images and video.</p>
+<p>Across the sciences, there are other sources of image data such as medical images, electron microscopy etc. </p>
+<h2 id="cv-tasks">CV Tasks</h2>
+<p>Many CV tasks exist including:</p>
 <ul>
-<li><a href="https://acceleratescience.github.io/accelerate-spark%20data%20science%20residency/2021/06/10/EmBauztye-ML-for-archeology.html">Ema Bauzyte discusses using unsupervised learning to cluster sites in archeology, get more insight about which might be related</a></li>
-<li><a href="https://acceleratescience.github.io/accelerate-spark%20data%20science%20residency/2021/07/08/JesseAllardice-ML-for-solar-tech.html">Jesse Allardice uses dimensionality reduction in Physics, to reduce the complexity of high dimensional data for solar panels</a></li>
-<li><a href="https://acceleratescience.github.io/2022/05/17/how-can-we-use-ai-to-understand-acute-respiratory-distress-syndrome.html">Dr Romit Samanta groups patients to better identify subgroups of patients and understand how their biology relates to disease progression</a></li>
+<li>Classification</li>
+<li>Segmentation</li>
+<li>Generation</li>
+<li>&amp; more</li>
 </ul>
 <h2 id="contact">Contact</h2>
 <p>If you can't find what you need</p>
